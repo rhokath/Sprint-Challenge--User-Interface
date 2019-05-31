@@ -149,7 +149,6 @@ footer nav a {
 
 header {
     display: flex;
-    border: 1px solild black;
     width: 100%;
     flex-direction: column;
     margin-bottom: 30px;
@@ -162,12 +161,12 @@ header nav {
     align-content: flex-end;
     padding: 20px 2%;
     font-size: 14px;
-    background: red;
+
 
 }
 
 header nav .logo {
-    margin-left 0px;
+    margin-left: 0;
 }
 
 
@@ -176,7 +175,6 @@ header nav a {
     color: black;
     margin: auto;
     align-content: center;
-    border: 1px solid black;
     justify-content: center;
 }
 
@@ -287,16 +285,22 @@ header img .header-img {
     justify-content: center;
 }
 
- div .container about-page {
+  .container about-page { 
+    margin: 0 auto;
+    max-width: 800px;
+}
+ .middle about content{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
 }
 
-div .about card {
-    display: flex;
-    flex-direction: row;   
-    width: 375px;
+ div .about card {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 48%;
+    padding: 15px;
 }
 
 div .button {
@@ -304,15 +308,19 @@ div .button {
     margin-top: 20px;
     cursor: pointer;
     background: white;
-    border-radius: 5px;
-    border: 1px solid black;
+    border-radius: 10px;
+    border: 2px solid black;
     width: 150px;
     height: 50px;
 }
 
-section .middle {
+.top about content {
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
+
 
 
