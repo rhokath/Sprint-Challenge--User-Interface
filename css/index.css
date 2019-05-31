@@ -289,19 +289,12 @@ header img .header-img {
     margin: 0 auto;
     max-width: 800px;
 }
- .middle about content{
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-evenly;
-}
+ .about info cards .info cards {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
 
- div .about card {
-    display: flex; 
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 48%;
-    padding: 15px;
-}
 
 div .button {
     padding: 10px 40px;
@@ -314,10 +307,11 @@ div .button {
     height: 50px;
 }
 
-.top about content {
-    display: flex;
-    flex-wrap: wrap;
+.bottom about content .about info {
+    padding: 15px;
 }
+
+
 
 
 
