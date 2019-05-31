@@ -289,13 +289,30 @@ header img .header-img {
 
  div .container about-page {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 div .about card {
     display: flex;
-    flex-direction: column;
-    width: 30%;
-    
+    flex-direction: row;   
+    width: 375px;
+}
+
+div .button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+}
+
+section .middle {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
