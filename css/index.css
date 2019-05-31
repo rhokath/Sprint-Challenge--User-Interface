@@ -301,8 +301,8 @@ header img .header-img {
  }
 
 
-div .button {
-    padding: 10px 40px;
+ .button {
+    padding: 15px 0 15px 30px;
     margin-top: 20px;
     cursor: pointer;
     background: white;
@@ -323,6 +323,11 @@ div .button {
 
 .info cards {
     border-bottom: 1px dashed black;
+    display: flex;
+    width: 400px;
+    padding: 5px;
+    margin: 20px 0;
+
 }
 .about info {
     border-bottom: 1px dashed black;
