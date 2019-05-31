@@ -294,6 +294,11 @@ header img .header-img {
      flex-wrap: wrap;
      justify-content: space-evenly;
  }
+ .about info cards {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }
 
 
 div .button {
@@ -310,7 +315,18 @@ div .button {
 .bottom about content .about info {
     padding: 15px;
 }
+.middle about content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.info cards {
+    border-bottom: 1px dashed black;
+}
+.about info {
+    border-bottom: 1px dashed black;
+}
 
 
 
