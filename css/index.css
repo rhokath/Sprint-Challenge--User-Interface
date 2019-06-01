@@ -288,21 +288,21 @@ header img .header-img {
   .container about-page { 
     margin: 0 auto;
     max-width: 800px;
-    border: 1px solid black;
+    
 }
 
 
 
- .about info cards .info cards {
+ .about-info-cards .info-cards {
      display: flex;
      flex-wrap: wrap;
-     justify-content: space-evenly;
+     /* justify-content: space-evenly; */
  }
- .about info cards {
+ .about-info-cards {
      display: flex;
      flex-wrap: wrap;
      justify-content: space-around;
-     border: 2px solid black;
+     
  }
 
 
@@ -317,36 +317,35 @@ header img .header-img {
     height: 50px;
 }
 
-.bottom about content .about info {
+.bottom-about-content .about-info {
     padding: 15px;
 }
-.middle about content{
+.middle-about-content{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    
 }
 
-.info cards {
+.info-cards {
     border-bottom: 1px dashed black;
     display: flex;
-    width: 400px;
-    padding: 5px;
+    width: 40%;
+    padding-bottom: 10px;
     margin: 20px 30px;
+    align-items: flex-start;
 }
-.card image {
-    width: 400px;
-
-}
-.about info {
-    border-bottom: 1px dashed black;
-}
-.top about content {
-    border: 1px solid black;
+.card-image {
+    margin-bottom: 10px;
 }
 
-.bottom about content {
-    border: 1px solid black;
+/* .about-info {
+    border-bottom: 1px dashed black; */
 }
+.top-about-content .about-info {
+  border-bottom: 1px dashed black;
+  padding-bottom: 10px;
+}
+
 
 
 
